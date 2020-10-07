@@ -14,7 +14,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F7F9FF</string>
+				<string>#fefcf5</string>
 				<key>caret</key>
 				<string>#000000</string>
 				<key>foreground</key>
@@ -29,6 +29,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>editorLineNumber</string>
+			<key>scope</key>
+			<string>editorLineNumber</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e4e4e4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
 			<string>comment</string>
@@ -36,17 +47,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#008000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String</string>
-			<key>scope</key>
-			<string>string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E68C32</string>
 			</dict>
 		</dict>
 		<dict>
@@ -106,6 +106,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#000080</string>
 			</dict>
 		</dict>
 		<dict>
@@ -273,7 +275,20 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF00FF</string>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Builtin Functions name</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000FF</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -322,6 +337,66 @@
 				<string>bold</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded, variable.interpolation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string, string.quoted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#808080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>meta.function-call</string>
+			<key>scope</key>
+			<string>meta.function-call</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8000ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>punctuation.terminator.expression</string>
+			<key>scope</key>
+			<string>punctuation.terminator.expression, punctuation.definition.begin.bracket.round</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8000ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>keyword.operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8000ff</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+
+
+
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
